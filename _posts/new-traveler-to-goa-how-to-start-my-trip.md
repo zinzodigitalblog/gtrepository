@@ -13,10 +13,6 @@ If you’re planning your first trip to **Goa**, you’re in for an unforgettabl
 
 Whether you're a solo traveler, a couple, or a family, here’s how to **start your Goa journey** the right way:
 
-<div align="center">
-  <img src="https://www.goatouring.com/bimages/image1.jpg" alt="Goa Tour Image" style="max-width:100%; height:auto; margin: 20px 0;">
-</div>
-
 ## 🚗 **1. Book Your Goa Tour Package with a Trusted Guide**
 
 The easiest and most hassle-free way to start your Goa trip is by booking a **Goa Tour Package**. When you book a tour package with a trusted **Goa Tour Guide**, all the details like **transportation**, **accommodation**, and **itinerary planning** are taken care of for you. You can choose from different packages based on your preferences, whether you want a **relaxed beach holiday**, an **adventure-filled trip**, or a **cultural tour**.
