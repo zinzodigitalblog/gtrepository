@@ -71,7 +71,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
-  - jekyll-sitemap
+# - jekyll-sitemap   # Comment out or remove this line
 
 whitelist:
   - jekyll-paginate
