@@ -8,15 +8,15 @@
   </head>
   <body>
 
-   <!-- Sticky Banner Start -->
+<!-- Sticky Banner Start -->
 <style>
   #sticky-banner {
-  position: fixed;
-  top: 180px; /* Increase this value to push the banner lower */
-  left: 10px;
-  width: 200px;
-  z-index: 999;
-}
+    position: fixed;
+    top: 180px; /* Push down below the top text */
+    left: 10px;
+    width: 200px;
+    z-index: 999;
+  }
 
   #sticky-banner img {
     width: 100%;
@@ -24,21 +24,10 @@
     display: block;
   }
 
-  /* Push the main site content right */
-  @media (min-width: 768px) {
-    body {
-      margin-left: 180px; /* Creates space for the banner */
-    }
-  }
-
   /* Hide on small screens */
   @media (max-width: 767px) {
     #sticky-banner {
       display: none;
-    }
-
-    body {
-      margin-left: 0; /* Reset margin on small screens */
     }
   }
 </style>
@@ -49,6 +38,7 @@
   </a>
 </div>
 <!-- Sticky Banner End -->
+
 
 
     <!-- Site Content -->
