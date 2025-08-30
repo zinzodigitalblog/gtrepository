@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Top Free Goa Classifieds for Local Ad Submissions"
 date: 2025-09-08
 categories: [goa, marketing, local]
 tags: [goa classifieds, free ad submission, local promotion, tourism business]
