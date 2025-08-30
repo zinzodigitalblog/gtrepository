@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} - Goa Touring Blog</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <style>
+    /* Sticky Left Banner styles */
+    #sticky-banner {
+      position: fixed;
+      top: 100px; /* adjust if needed */
+      left: 10px;
+      width: 220px;
+      padding: 15px;
+      background-color: #f0f0f0;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      font-family: Arial, sans-serif;
+      z-index: 1000;
+    }
+    #sticky-banner h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.2em;
+    }
+    #sticky-banner p, #sticky-banner a {
+      font-size: 0.9em;
+      color: #333;
+      text-decoration: none;
+      margin: 4px 0;
+      display: block;
+    }
+    #sticky-banner a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin-left: 250px; /* space for banner */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="sticky-banner">
+    <h3>Goa Touring</h3>
+    <p>Goa Tour Guide and Tour Package all over India.</p>
+    <p>North Goa, Goa</p>
+    <p>Email: <a href="mailto:goatouring@gmail.com">goatouring@gmail.com</a></p>
+    <p>Contact: <a href="tel:+918148038211">+91 81480 38211</a></p>
+    <p>Website: <a href="https://www.goatouring.com" target="_blank" rel="noopener noreferrer">www.goatouring.com</a></p>
+  </div>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
