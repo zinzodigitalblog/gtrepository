@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Comprehensive Transport Guide: Traveling from Major Indian Cities to Goa (October–April)"
 date: 2025-09-07
 categories: [travel, transport, goa]
 tags: [goa travel, flights to goa, trains to goa, buses to goa]
