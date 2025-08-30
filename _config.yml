@@ -13,6 +13,7 @@ url: "https://blog.goatouring.com"
 baseurl: ""
 repository: "goatouring/gtrepository"
 future: true
+favicon: /favicon.ico
 
 # SEO Verification
 google_site_verification:
