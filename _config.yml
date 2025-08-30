@@ -31,18 +31,12 @@ social:
     - "https://youtube.com/@goatouring"
     - "https://github.com/goatouring"
 
-# Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: ""
-
 # Author
 author:
   name: "Goa Touring"
   bio: "Goa Tour Guide and Tour Package all over India."
   location: "North Goa, Goa"
-  email: services@zinzodigital.com
+  email: goatouring@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-envelope"
