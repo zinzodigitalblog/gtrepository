@@ -1,0 +1,222 @@
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
+locale: "en-US"
+title: "Goa Touring Blog"
+title_separator: "-"
+subtitle: "Goa Tour Package from Delhi, Mumbai, Chennai, Hyderabad, Kerala, Bangalore"
+name: "Goa Touring"
+description: "We provide Tour Guide and Tour Package for your Goa Trip with packages like Adventure Goa Trip, Friends Goa Trip, Honeymoon Goa Trip with 2 days and 3 days package."
+url: "https://blog.goatouring.com"
+baseurl: ""
+repository: "goatouring/gtrepository"
+future: true
+
+# SEO Verification
+google_site_verification:
+bing_site_verification:
+naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
+
+# Social
+social:
+  type: Organization
+  name: Goa Touring
+  links:
+    - "https://facebook.com/goatouring"
+    - "https://instagram.com/goatouring"
+    - "https://youtube.com/@goatouring"
+    - "https://github.com/goatouring"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: ""
+
+# Author
+author:
+  name: "Goa Touring"
+  bio: "Goa Tour Guide and Tour Package all over India."
+  location: "North Goa, Goa"
+  email: services@zinzodigital.com
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+    - label: "Website"
+      icon: "fas fa-link"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+
+# Footer Links
+footer:
+  links:
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/goatouring"
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://facebook.com/goatouring"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://youtube.com/@goatouring"
+
+# Plugins (jekyll-sitemap removed)
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Comments
+comments:
+  provider:
+
+# Atom Feed
+atom_feed:
+  path:
+  hide:
+
+# Search
+search:
+search_full_content:
+search_provider: lunr
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+pagination:
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  trail:
+    before: 2
+    after: 2
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone:
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+      
+# Exclude paginated pages from sitemap
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sitemap: false
+
+exclude:
+  - /page/*
+  - /page*
