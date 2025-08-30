@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Top Hotels in North Goa for Tourists: Comfortable Stays for an Unforgettable Trip"
 date: 2025-09-05
 categories: [north-goa, hotels, travel]
 tags: [north goa hotels, goa accommodation, tourist stay, hotels in north goa]
