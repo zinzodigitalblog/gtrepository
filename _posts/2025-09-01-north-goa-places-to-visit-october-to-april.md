@@ -1,6 +1,5 @@
 ---
 layout: single
-title: "Top Places to Visit in North Goa from October to April"
 date: 2025-09-01
 categories: [goa, travel, itinerary]
 tags: [north goa, goa tourism, beach, fort, nightlife]
